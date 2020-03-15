@@ -1,8 +1,8 @@
-# Code Challenge Best Practices
+# Technical Assignments Best Practices
 
 ## What To Do First
 
-As soon as you receive a code/data challenge, **you should immediately spend one hour on it.** 
+As soon as you receive a pre-interview assignment, **you should immediately spend one hour on it.** 
 
 This is to make sure you understand the directions, that the APIs/data sources they provided still work, and to make sure any other incidental things won’t pop up 24 hours before the challenge is due.
 
@@ -25,7 +25,7 @@ Remember to keep it simple!
 
 Try not to waste time making things too “fancy” - or risk not meeting the deadline because you want to add to the solution. It can be easy to spend more time on the challenge than is necessary to pass the round, and you may be doing more harm than good.
 
-Our advice? Complete the challenge as if it were a real client assignment, not a competition. The team might be asking themselves: "Would I be happy to build upon this code/data myself?” or “Would it be relatively straight-forward to pair with someone on this?"
+Our advice? Complete the challenge as if it were a real client assignment, not a competition. The team might be asking themselves: "Would I be happy to build upon this code/data myself?” 
 
 ## Deadlines
 
@@ -51,15 +51,7 @@ Employers will assume the way you work through the challenge is how you’ll wor
 
 Details are critical. Your whole job is paying attention to the details. Missing a semicolon, forgetting to close a quote, using the wrong key to retrieve a map value, all these lead to errors. It behooves you to be meticulous.
 
-This is especially true when it comes to code challenges. 
-
-Code quality and readability are particularly important. If a fellow professional can easily understand your programming, they will enjoy working with you.
-
-[Have a sensible Git log](http://chris.beams.io/posts/git-commit/).
-
 Follow the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle). Keep your modules, classes, and methods as small as possible.
-
-If you’re a software engineering student and building a front end, something as simple as slapping on the company logo or matching the company colors goes a long way.
 
 Make sure you test repeatedly before you submit.
 
@@ -91,20 +83,13 @@ Second rule of technical challenges: Always submit on time!
 
 Other rules: 
 - Make sure you’ve tested it twice, thrice, dozens of times before you submit.
-- Show it to a friend (or a few friends). See what they think.
 - Make sure your submission satisfies all the minimum requirements
-
-In some cases, you may find that your final product is a little off, or not what you were hoping to submit. Some companies are looking at more than just the code itself, and it can be beneficial to provide well written instructions (e.g. ReadMe) or comments walking readers through what you have created. In the event that your product could not be completed, or lacked a specific feature, include that content. Let employers know what you would have done differently, added/removed, or problem solved to strengthen your final code.
 
 ## Record It! 
 
 **If there are a lot of features, elements, or a flow to navigating your app or project, record a video!**
 
 Videos are great for showcasing everything you built and adding context behind your choices. 
-
-- If you built a CRUD app, spend a minute showing the upload and download functions as you narrate the steps. 
-- If you built an API, show the different responses you get when you hit different endpoints or send different payloads.
-- etc.
 
 ## How to Handle Feedback
 
@@ -114,4 +99,35 @@ Sometimes, an employer may provide feedback about your submitted challenge. This
   
 **Don’t:** Become defensive. That can be a big red flag to recruiters/employers. It is important to remember that feedback is not personal, and that being able to receive constructive feedback is an essential part of your professional development and career growth. Don't defend your choice to the employer if they made it clear they thought you went about solving the problem in the wrong way.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/technical-assignment-best-practices'>Technical Interview Assignment Best Practices</a> on Learn.co and start learning to code for free.</p>
+## A Sample of an Interview Assignment and Presentation
+
+Here's an example of a cybersecurity technical interview/presentation with an employer. In this scenario, the expected answers are non-trivial and derive from best practices and the ability to apply established frameworks of cybersecurity with minimal information.  In these types of interviews, candidates receive the assignment in advance, and are often expected to present their findings in front of a panel of interviewers. 
+
+**The pre-interview assignment**
+
+Hello Applicant,
+
+Thanks for taking the time to interview with our team.  We integrate Mt. Fuji projects into our hiring process. A Mt. Fuji project is a task that is assigned to a potential candidate to closely mimic the daily tasks required for the job. There is no right or wrong answer for these assignments, rather they are meant to be a conversation starter, and a way to investigate how the candidate would accomplish a complex task.  This Mt. Fuji project will test your ability to create an Incident Response Plan and conduct a tabletop exercise to test the effectiveness of that plan.
+
+**Directions**
+
+Unicron Schwartz, Inc. is an online retailer that sells widgets to consumers.  It operates an online storefront hosted in a single AWS region.  Internet sales account for 100% of Unicron Schwartz, Inc’s $500M revenue.  Any service impact can seriously impact revenue. 
+ 
+Unicron Schwartz, Inc. allows users to login and create profiles that store information such as Name, Address, Phone, and E-mail Address.   As an online retailer, the company also accepts credit cards and allows consumers to save card information for the convenience of future purchases.
+ 
+**Create an Incident Response Plan based on this company profile**
+
+Details:
+
+The goal here is to see how you can develop an appropriate Incident Response Plan.  If there are additional company profile details that you need to complete this plan, you can take the liberty of inventing any additional details needed.
+- Make sure your plan includes any sections you feel relevant for a basis Incident Response Plan as well as anything additional needed to meet the needs of Unicron Schwartz, Inc. 
+- Your plan should call out Key Stakeholders as well as Response Team members.
+- Be prepared to present and discuss the plan to a group during your on-site interview.  You will also be asked to conduct a tabletop exercise to test the effectiveness of that plan.
+- You will need to make assumptions throughout this process. This is fine and you are expected to take any liberties you feel appropriate. Please take note of your assumptions and be prepared to discuss them.
+ 
+Please reply back with your plan.  After we receive your project, someone from our recruiting team will contact you and schedule a time for an in-person interview.
+ 
+GOOD LUCK AND HAVE FUN!
+
+
+**Next: Tips for Technical Interview success!**
